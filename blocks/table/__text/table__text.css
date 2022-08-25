@@ -1,0 +1,13 @@
+.table__text {
+  max-width: 133px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 24px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0e2773;
+}

@@ -1,0 +1,5 @@
+.two-columns__text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 9px 0;
+}

@@ -1,0 +1,9 @@
+.risks-and-important__column {
+  display: flex;
+  flex-direction: column;
+  max-width: 157px;
+}
+
+.risks-and-important__column:last-child {
+  margin-left: 20px;
+}

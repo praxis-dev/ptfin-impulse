@@ -1,0 +1,7 @@
+.table__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  align-items: center;
+}

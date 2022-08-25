@@ -1,0 +1,87 @@
+/* vendor */
+
+@import url(../vendor/normalize.css);
+
+/* fonts */
+
+@import url(../fonts/fonts.css);
+
+/* root */
+
+@import url(../blocks/root/root.css);
+
+/* header */
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__column/header__column.css);
+
+/* intro */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__container/intro__container.css);
+@import url(../blocks/intro/__arrows/intro__arrows.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__title-with-graph/intro__title-with-graph.css);
+@import url(../blocks/intro/__graph/intro__graph.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__description/intro__description.css);
+@import url(../blocks/intro/__profit-factor/intro__profit-factor.css);
+
+/* stages */
+
+@import url(../blocks/stages/stages.css);
+@import url(../blocks/stages/__container/stages__container.css);
+
+/* two-columns */
+
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__line-container/two-columns__line-container.css);
+@import url(../blocks/two-columns/__text-container/two-columns__text-container.css);
+@import url(../blocks/two-columns/__line-image/two-columns__line-image.css);
+@import url(../blocks/two-columns/__process/two-columns__process.css);
+@import url(../blocks/two-columns/__header/two-columns__header.css);
+@import url(../blocks/two-columns/__text/two-columns__text.css);
+@import url(../blocks/two-columns/__process/_top/two-columns__process_top.css);
+@import url(../blocks/two-columns/__process/_middle/two-columns__process_middle.css);
+@import url(../blocks/two-columns/__process/_bottom/two-columns__process_bottom.css);
+
+/* parameters */
+
+@import url(../blocks/parameters/parameters.css);
+@import url(../blocks/parameters/__container/parameters___container.css);
+
+/* table */
+
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__title/table__title.css);
+@import url(../blocks/table/__subtitle/table__subtitle.css);
+@import url(../blocks/table/__row/table__row.css);
+@import url(../blocks/table/__numbers/table__numbers.css);
+@import url(../blocks/table/__text/table__text.css);
+
+/* risks and important */
+
+@import url(../blocks/risks-and-important/risks-and-important.css);
+@import url(../blocks/risks-and-important/__column/risks-and-important__column.css);
+@import url(../blocks/risks-and-important/__title/risks-and-important__title.css);
+@import url(../blocks/risks-and-important/__title/_right/risks-and-important__title_right.css);
+@import url(../blocks/risks-and-important/__text/risks-and-important__text.css);
+
+/* contacts */
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+@import url(../blocks/contacts/__image/contacts__image.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__text/contacts__text.css);
+@import url(../blocks/contacts/__phone/contacts__phone.css);
+@import url(../blocks/contacts/__email/contacts__email.css);
+
+/* footer */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__text/footer__text.css);

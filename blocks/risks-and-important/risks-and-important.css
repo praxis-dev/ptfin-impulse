@@ -1,0 +1,7 @@
+.risks-and-important {
+  display: flex;
+  flex-direction: row;
+  padding: 0 13px 0;
+  background-color: #e6eefd;
+  padding-bottom: 28px;
+}

@@ -1,0 +1,12 @@
+.table__subtitle {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0 0 29px;
+  max-width: 153px;
+  align-self: center;
+  color: #0e2773;
+}

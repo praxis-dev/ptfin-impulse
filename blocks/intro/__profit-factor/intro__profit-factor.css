@@ -1,0 +1,14 @@
+.intro__profit-factor {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  background-color: #efaa1a;
+  height: 23px;
+  width: 175px;
+  border-radius: 5px;
+  padding: 10px;
+}

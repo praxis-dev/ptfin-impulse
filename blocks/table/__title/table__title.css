@@ -1,0 +1,12 @@
+.table__title {
+  font-family: "Rubik", "Helvetica Neue", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0e2773;
+  align-self: center;
+  margin-top: 15px;
+  margin-bottom: 0;
+}

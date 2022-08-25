@@ -1,0 +1,39 @@
+@font-face {
+  src: url(./Rubik/Rubik-SemiBold.ttf) format("woff");
+  font-family: "Rubik";
+  font-weight: 600;
+}
+
+@font-face {
+  src: url(./Rubik/Rubik-Medium.woff) format("woff"),
+    url(./Rubik/Rubik-Medium.woff2) format("woff2");
+  font-family: "Rubik";
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(./Rubik/Rubik-Light.ttf) format("woff2");
+  font-family: "Rubik";
+  font-weight: 200;
+}
+
+@font-face {
+  src: url(./Montserrat/Montserrat-Regular.woff) format("woff"),
+    url(./Montserrat/Montserrat-Regular.woff2) format("woff2");
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(./Montserrat/Montserrat-Medium.woff) format("woff"),
+    url(./Montserrat/Montserrat-Medium.woff2) format("woff2");
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(./Montserrat/Montserrat-SemiBold.woff) format("woff"),
+    url(./Montserrat/Montserrat-SemiBold.woff2) format("woff2");
+  font-family: "Montserrat";
+  font-weight: 600;
+}
