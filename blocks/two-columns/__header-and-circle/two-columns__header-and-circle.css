@@ -1,0 +1,7 @@
+.two-columns__header-and-circle {
+  display: flex;
+  font-display: row;
+  align-items: center;
+  position: relative;
+  left: -45px;
+}

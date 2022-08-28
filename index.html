@@ -47,41 +47,17 @@
       <section class="stages">
         <div class="stages__container">
           <div class="two-columns">
-            <div class="two-columns__line-container">
-              <svg
-                width="31"
-                height="373"
-                viewBox="0 0 31 373"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <line x1="15.5" y1="15" x2="15.5" y2="358" stroke="white" />
-                <circle
-                  cx="15.5"
-                  cy="15.5"
-                  r="15"
-                  fill="#0057ED"
-                  stroke="white"
-                />
-                <circle
-                  cx="15.5"
-                  cy="208.5"
-                  r="15"
-                  fill="#0057ED"
-                  stroke="white"
-                />
-                <circle
-                  cx="15.5"
-                  cy="357.5"
-                  r="15"
-                  fill="#0057ED"
-                  stroke="white"
-                />
-              </svg>
-            </div>
+            <div class="two-columns__line"></div>
             <div class="two-columns__text-container">
               <div class="two-columns__process two-columns__process_top">
-                <h3 class="two-columns__header">Анализ</h3>
+                <div class="two-columns__header-and-circle">
+                  <img
+                    src="./images/circle.svg"
+                    alt="буллит"
+                    class="two-columns__circle"
+                  />
+                  <h3 class="two-columns__header">Анализ</h3>
+                </div>
                 <p class="two-columns__text">
                   Анализ активов ведется среди ликвидных, со средним объемом
                   более 750к. Список составляет более пятьсот акций на каждый
@@ -90,7 +66,14 @@
                 </p>
               </div>
               <div class="two-columns__process two-columns__process_middle">
-                <h3 class="two-columns__header">Покупка</h3>
+                <div class="two-columns__header-and-circle">
+                  <img
+                    src="./images/circle.svg"
+                    alt="буллит"
+                    class="two-columns__circle"
+                  />
+                  <h3 class="two-columns__header">Покупка</h3>
+                </div>
                 <p class="two-columns__text">
                   Сигнал на покупку формируется после получения подтверждений
                   некоторых паттернов, а заявки выставляются до открытия
@@ -98,7 +81,14 @@
                 </p>
               </div>
               <div class="two-columns__process two-columns__process_bottom">
-                <h3 class="two-columns__header">Стратегия входа</h3>
+                <div class="two-columns__header-and-circle">
+                  <img
+                    src="./images/circle.svg"
+                    alt="буллит"
+                    class="two-columns__circle"
+                  />
+                  <h3 class="two-columns__header">Стратегия входа</h3>
+                </div>
                 <p class="two-columns__text">
                   Cтратегия предусматривает вход на каждую позицию в размере 15%
                   от свободного кэша или от общей суммы портфеля. При условии
@@ -165,18 +155,29 @@
           <h3 class="contacts__title">
             Свяжитесь с Вашим персональным менеджером, чтобы узнать подробности
           </h3>
-          <p class="contacts__text">
-            <a href="tel:+77273469025" class="contacts__phone"
+          <p
+            class="contacts__text"
+            itemscope
+            itemtype="http://schema.org/Organization"
+          >
+            <a
+              href="tel:+77273469025"
+              class="contacts__phone"
+              itemprop="telephone"
               >+7 727 346 90 25&nbsp;</a
-            >|<a href="tel:+77073507550" class="contacts__phone"
+            >|<a
+              href="tel:+77073507550"
+              class="contacts__phone"
+              itemprop="telephone"
               >&nbsp;+7 707 350 75 50</a
             >
 
             <a
-              href="mailto:info@ptfin.kz?subject = Запрос&body = Добрый день,"
+              href="mailto:info@ptfin.kz"
               class="contacts__email"
-              >info@ptfin.kz</a
-            >
+              itemprop="email"
+              >info@ptfin.kz
+            </a>
           </p>
         </div>
       </section>

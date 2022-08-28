@@ -1,6 +1,5 @@
 .two-columns {
   display: flex;
   flex-direction: row;
-  bd: 1px solid gold;
   margin-bottom: 172px;
 }
